@@ -1,0 +1,64 @@
+.navbar-container {
+  background-color: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px; /* Added padding */
+}
+
+.logo-container {
+  margin-left: 20px; /* Adjusted margin */
+}
+
+.menu-container {
+  flex: 1; /* Allow the menu to take remaining space */
+}
+
+.website-logo {
+  width: auto; /* Adjusted logo width */
+  height: 30px; /* Adjusted logo height */
+}
+
+.header-list-items {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end; /* Aligned menu items to the right */
+}
+
+.header-list-items li {
+  margin-right: 20px; /* Added spacing between menu items */
+}
+
+.logout-button {
+  background-color: #4f46e5;
+  padding: 10px 20px; /* Added padding */
+  border-radius: 6px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  width: 110px;
+}
+
+.link-item {
+  text-decoration: none;
+  color: #fff; /* Added link color */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .website-logo {
+    width: 120px; /* Adjusted logo width for smaller screens */
+  }
+
+  .header-list-items {
+    display: none; /* Hide menu items by default on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .logout-button {
+    margin-right: 20px; /* Adjusted margin for logout button */
+  }
+}
